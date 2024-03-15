@@ -1,0 +1,21 @@
+import React, { Component } from "react";
+import 'bootstrap/dist/css/bootstrap.min.css';
+class Caroussel extends Component {
+    constructor(props) {
+        super(props);
+    }
+    render() {
+
+        return (
+            <div className="container bg-secondary text-light">
+                <h1>Bonjour et bienvenue sur ma page !</h1>
+                <div>
+                    <img alt='toto' src="../images/map.png" width={100}/>
+                </div>
+
+            </div>
+        )
+    }
+
+}
+export default Caroussel;
