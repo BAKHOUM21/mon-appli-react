@@ -12,7 +12,9 @@ form{
     border: 0px;
     width: 120%;
 }
-
+.form-horizontal{
+    border-radius: 10px;
+}
 body{
     background-color: rgba(227, 227, 236, 0.651);
 }

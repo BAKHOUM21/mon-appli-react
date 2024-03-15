@@ -9,8 +9,8 @@ class Caroussel extends Component {
         return (
             <div className="container bg-secondary text-light">
                 <h1>Bonjour et bienvenue sur ma page !</h1>
-                <div>
-                    <img alt='toto' src="../images/map.png" width={100}/>
+                <div className="">
+                    
                 </div>
 
             </div>

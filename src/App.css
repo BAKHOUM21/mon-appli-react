@@ -1,7 +1,7 @@
 body{
   background: url('../public/images/bagnol.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-repeat:repeat-y;
+  background-size:cover;
 }
 .App {
   text-align: center;
