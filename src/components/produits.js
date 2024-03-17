@@ -1,38 +1,45 @@
 import React, { Component } from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
-const link= '.././images/bagnol.jpg';
-const title='Ma voiture';
+import '../../src/produits.css';
+const link = '.././images/bagnol.jpg';
+const title = 'Ma voiture';
 class Produits extends Component {
-     
+
     constructor(props) {
         super(props);
     }
     render() {
 
         return (
-            <div className="container-fluid d-block">
-                <div className="card m-2">
+            <div className="container expand-lg d-flex ml-1">
+                <div className="card col-sm-5 mt-2 ml-1">
                     <div className="card-header">
                         {title}
                     </div>
                     <div className="card-body">
-                        <div className=" float-end ml-2">
-                            <button className="btn btn-primary">+</button>
-                            <button className="btn btn-primary">-</button>
+                        <div className="m-auto">
+                            <img src={link} className="m-auto imgs" />
                         </div>
-                        <img width={200} src={link} />
+                        <div className="ml-2 mt-2">
+                            <button className="btn btn-primary float-start">+</button>
+                            <button className="btn btn-primary float-end">-</button>
+                        </div>
+
                     </div>
                 </div>
-                <div className="card m-2">
+                <div className="card col-sm-5 mt-2 float-end">
                     <div className="card-header">
                         {title}
                     </div>
                     <div className="card-body">
-                        <div className=" float-end ml-2">
-                            <button className="btn btn-primary">+</button>
-                            <button className="btn btn-primary">-</button>
+                        <div>
+                            <img className="imgs" src={link} />
                         </div>
-                        <img width={200} src={link} />
+                        <div className="ml-2 mt-2">
+                            <button className="btn btn-primary start">+</button>
+                            <button className="btn btn-primary float-end">-</button>
+                        </div>
+
                     </div>
                 </div>
 
